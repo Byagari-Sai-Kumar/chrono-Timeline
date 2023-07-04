@@ -1,0 +1,23 @@
+* {
+  font-family: Roboto;
+  color: #1e293b;
+}
+
+.timelineViewBgContainer {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px;
+}
+
+.myJourneyHeading {
+  font-size: 15px;
+}
+
+.ccbpHeading {
+  font-size: 17px;
+  color: #2b237c;
+}

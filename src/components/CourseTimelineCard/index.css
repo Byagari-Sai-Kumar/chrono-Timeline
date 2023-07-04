@@ -1,0 +1,65 @@
+.courseTimelineContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.titleAndDurationContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.courseTitle {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.timerContainer {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clockIcon {
+  font-size: 15px;
+  color: #1e293b;
+}
+
+.duration {
+  font-size: 13px;
+  padding-left: 5px;
+  color: #1e293b;
+}
+
+.descriptionPara {
+  font-size: 16px;
+}
+
+.topicsContainer {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.topicList {
+  background-color: aliceblue;
+  color: #1e293b;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin: 5px;
+}
